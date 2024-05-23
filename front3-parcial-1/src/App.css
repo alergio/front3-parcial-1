@@ -5,6 +5,28 @@
   text-align: center;
 }
 
+.colorRed {
+  color: red;
+}
+
+.colorClass {
+  padding: 10px;
+  border-color: var(--dynamic-color);
+  border-style: ridge;
+  margin-top: 15px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin: auto;
+}
+
+input {
+  margin-bottom: 10px;
+}
+
 .logo {
   height: 6em;
   padding: 1.5em;
